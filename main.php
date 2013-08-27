@@ -44,7 +44,7 @@ class AdSoc_Widget extends WP_Widget {
 		echo $args['before_widget'];
 		if ( ! empty( $title ) )
 			echo $args['before_title'] . $title . $args['after_title'];
-			echo $instance['adContent'];
+			echo "<p style='text-align:center>".$instance['adContent']-"</p>";
 		echo $args['after_widget'];
 	}
 
