@@ -26,7 +26,7 @@ class AdSoc_Widget extends WP_Widget {
 		parent::__construct(
 			'ad_soc_widget', // Base ID
 			'Ad_Soc', // Name
-			array( 'description' => __( 'A Custom Ads Widget ofr SOC', 'text_domain' ), ) // Args
+			array( 'description' => __( 'A Custom Ads Widget for SOC', 'text_domain' ), ) // Args
 		);
 	}
 
